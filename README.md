@@ -1,5 +1,7 @@
 # Airflow dbt Batch ETL Pipeline
 
+> **Maintained by [Jennita S](https://github.com/Jennita-Santhakumar)** · [LinkedIn](https://linkedin.com/in/jennitas) · jennitasanthakumar0@gmail.com
+
 A production-shaped batch ETL platform: Airflow orchestrates extraction from three real (if
 synthetic) sources — a mock REST API, a source Postgres database, and MinIO (S3-compatible file
 storage) — through PySpark, into dbt-core bronze/silver/gold models on a Postgres warehouse, gated
@@ -193,3 +195,7 @@ pieces; the live Airflow-orchestrated run is worth re-verifying once the host is
 
 Apache Airflow (LocalExecutor) · PySpark (local mode) · dbt-core (postgres adapter) · Postgres ·
 MinIO (S3-compatible) · FastAPI · React + Vite + TypeScript + Recharts · Docker Compose
+
+## Credits
+
+Developed by Kabilesh Rajaselvan with contributions from Jennita S.
